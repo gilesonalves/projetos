@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #d3d3d3;
+}
+
+h1 {
+    text-align: center;
+    padding: 100px;
+    text-transform: uppercase;
+}
+
+
+.radio {
+    padding-bottom: 20px;
+    margin: 0 80px;
+}
+
+.texto-div {
+    padding: 80px 0;
+    margin: 0 30px;
+}
+
+.texto-label {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fb00bd;
+    
+}

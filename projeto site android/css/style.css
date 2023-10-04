@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+
+@font-face {
+    font-family: 'android';
+    src: url('/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-android: 'android', cursive;
+}
+
+body {
+    background-color: #a4e0ae;
+}
+
+
+#conteiner-header {
+    background-image: linear-gradient(to bottom, #a4e0ae,#395c3c);
+    text-align: center;
+    padding-top: 24px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 150px;
+}
+
+#conteiner-header h1 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 3px 5px 10px #00000082;
+}
+
+#conteiner-header p {
+    font-size: 16px;
+    padding: 24px;
+    line-height: 1.2;
+    text-shadow: 3px 5px 10px #00000082;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    padding-left: 24px;
+    margin: 0;
+    font-size: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#conteiner-main {
+    background-color: #fff;
+    max-width: 1000px;
+    min-width: 280px;
+    margin: auto;
+    box-shadow: 0 0 10px #000;
+    border-radius: 0 0 10px 10px;
+}
+
+#conteiner-main h3 {
+    background-image: linear-gradient(to right, #a4e0ae,transparent);
+    right: ;
+}
+
+
+
+#conteiner-br h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: hsla(123, 48%, 55%, 0.99);
+    padding: 24px;
+    font-family: var(--fonte-android)
+}
+
+#conteiner-br p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 24px;
+    line-height: 1.4;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+picture img {
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    
+}
+
+#conteiner-br h3 {
+    color: hsla(123, 48%, 55%, 0.99);
+    font-size: 22px;
+    font-family: var(--fonte-android);
+    padding: 0 24px;
+}
+
+#conteiner-video {
+    text-align: center;
+    background-color: #395c3c;
+    padding: 10px;
+    max-width: 100%;
+}
+
+#conteiner-bot {
+    background-color: #a4e0ae;
+    margin: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    
+}
+
+#conteiner-bot ol {
+    list-style-image: url(../img/Check.16.png);
+
+}
+
+#conteiner-lista {
+    list-style-position: inside;
+    columns: 2;
+    padding-left: 50px;
+}
+
+#conteiner-lista ol li abbr {
+    text-decoration: none;
+}
+
+
+
+blockquote {
+    background-color: #395c3c;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}

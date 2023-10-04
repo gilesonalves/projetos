@@ -1,0 +1,18 @@
+html {
+    background-color: white;
+    width: 1440px;
+    height: 900px;
+}
+
+.imagem {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+
+}
+
+.lista-nav {
+    display: inline-flex;
+    margin: 10px;
+
+}

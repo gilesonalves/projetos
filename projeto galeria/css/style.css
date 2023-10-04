@@ -1,0 +1,92 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+    background-image: url(/img/floresta.jpg);
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #07ec41;
+    padding: 15px;
+}
+
+#nav-li, li {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 20px;
+    background-color: aquamarine;
+    }
+
+    #nav-li, a {
+        text-decoration: none;
+        color: rgb(207, 243, 6);
+        
+    } 
+
+ul {
+    border: 12px solid rgb(3, 126, 13);
+    border-radius: 25%;
+}
+
+.click-nav {
+    color: blue;
+}
+.principal {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0px auto
+}
+
+.bloco {
+   width: 200px;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 25px;
+   
+    }
+
+.fotos {
+    background-size: contain;
+    height: 250px;
+}
+
+.ft1 .fotos {
+    background-image: url(/img/cachorro-1.jpg);
+}
+
+.ft2 .fotos {
+    background-image: url(/img/cachorro-2.jpg);
+}
+.ft3 .fotos {
+    background-image: url(/img/cachorro-3.jpg);
+}
+
+.ft4 .fotos {
+    background-image: url(/img/cachorro-4.jpg);
+}
+
+.ft5 .fotos {
+    background-image: url(/img/cachorro-5.jpg);
+}
+
+.ft6 .fotos {
+    background-image: url(/img/cachorro-6.jpg);
+}
+.ft7 .fotos {
+    background-image: url(/img/cachorro-7.jpg);
+}
+
+.ft8 .fotos {
+    background-image: url(/img/cachorro-8.jpg);
+}
+
+.btn {
+   
+    background-color: coral;
+}
+
+
+

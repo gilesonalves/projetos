@@ -1,0 +1,269 @@
+/* geral */
+body, p, h1, h2, input, textarea {
+    margin: 0;
+    font-family: roboto;
+}
+h2 {
+    font-size: 30px;
+}
+
+/* navegaçao */
+
+#navcabeca {
+    background: #ed1e24;
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navcabeca h2, navcabeca ul, #navul li {
+    display: inline-block;
+}
+
+#navcabeca img {
+    height: 40px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 10px;
+}
+
+#navcabeca h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navcabeca nav {
+    float: right;
+    
+}
+
+#navcabeca ul{
+    margin-top: 22px;
+}
+
+#navcabeca li {
+    margin: 0 10px;
+}
+
+#navul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#navul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* banner */
+
+#main-banner {
+    height: 70vh;
+    background-image: url(../img/bg-projeto.jpg);
+    background-size: cover;
+    padding-top: 15vh ;
+}
+
+#banner-info {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+#main-banner img {
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#main-banner h4 {
+    background-color: red;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+/* sobre */
+
+#sobre {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    height: 350px;
+}
+
+#sobre h2 {
+    margin: 20px;
+}
+
+#sobre p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+
+/* habilidades */
+
+#habi {
+    background-color: white;
+    margin-top: -100px;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#habi .contei {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contei2 {
+    flex: auto;
+    text-align: center;
+    padding: 60px 25px;
+    
+}
+
+.central {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 380px;
+
+}
+
+.contei h3 {
+    color: red;
+    font-size: 24px;
+}
+
+.contei img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.contei p {
+    color: red;
+    font-weight: bold;
+}
+
+/* progresso */
+
+#prog {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#prog h2 {
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+
+#prog p {
+    color: red;
+    margin-bottom: 50px;
+}
+
+#prog a {
+    font-weight: bold;
+    color: red;
+}
+
+.prog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.imagem {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.progre1 {
+    background-image: url(/img/proj1.jpg);
+}
+.progre2 {
+    background-image: url(/img/proj2.jpg);
+}
+.progre3 {
+    background-image: url(/img/proj3.jpg);
+}
+.progre3 {
+    background-image: url(/img/proj3.jpg);
+}
+.progre1 {
+    background-image: url(/img/proj1.jpg);
+}
+.progre2 {
+    background-image: url(/img/proj2.jpg);
+}
+
+/* rodape */
+
+#rodape {
+    background-color: red;
+    color: white;
+    height: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+#rodape h2 {
+    margin-top: 50px;
+}
+
+#rodape p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#rodape img {
+    width: 10vh;
+}
+
+#rod {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rodape input, #rodape textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+#rodape span {
+    font-weight: bold;
+}

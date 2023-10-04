@@ -1,0 +1,562 @@
+body {
+    background-color: #fff;
+    font-family: 'IBM Plex Serif', serif;
+    max-width: 1400px;
+    min-width: 280px;
+
+}
+
+.center {
+    max-width: 1166px;
+    margin: auto;
+}
+
+
+/* inicio barra navegação e banner */
+
+
+
+
+
+
+.navegacao {
+    padding-top: 50px;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.acerto-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+
+}
+
+#btn-top {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+
+
+}
+
+#btn-top:hover {
+    background: green;
+    -webkit-box-shadow: 0px 10px 25px -6px rgba(255, 229, 48, 0.66);
+    -moz-box-shadow: 0px 10px 25px -6px rgba(255, 229, 48, 0.66);
+    box-shadow: 0px 10px 25px -6px rgba(255, 229, 48, 0.66);
+}
+
+.conteiner-banner {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+
+#img-frame {
+    margin-top: 50px;
+    padding-bottom: 20px;
+
+
+}
+
+#img-movimenta {
+    max-width: 100%;
+
+}
+
+.conteiner-banner-texto {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.conteiner-banner-texto h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.conteiner-banner-texto p {
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+
+#btn-simular {
+    padding: 10px 24px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#texto-quero {
+    margin-top: 10px;
+}
+
+#texto-quero a {
+    color: #000;
+}
+
+#conteiner-amarelo {
+    background-color: #FFD900;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#texto-1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#conteiner-amarelo h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px auto 50px;
+}
+
+#texto-2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#btn-seta {
+    position: absolute;
+    right: 100px;
+    bottom: 5px;
+   
+}
+
+
+
+.box-slid {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    
+}
+
+#conteiner-f4 {
+    background-color: #f4f4f4;
+    
+    
+   
+    
+    
+}
+
+.btn-f4 {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+#btn-movimentar {
+    padding: 10px 40px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.conteiner-table {
+    padding-bottom: 350px;
+    display: flex;
+}
+
+.conteiner-table img {
+    padding-left: 160px;
+    padding-right: 50px;
+}
+
+.conteiner-table h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+
+
+.conteiner-table p {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#texto-td {
+   
+    color: #9A9A9A;
+    
+}
+
+#texto-td strong {
+    color: #000;
+}
+
+.conteiner-black {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    
+    
+    
+
+}
+
+.table-1 {
+    display: flex;
+    
+  justify-content: space-between;
+
+}
+
+.conteiner-circulo {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.circulo-amarelo {
+   background-color: #FFD900;
+   border-radius: 50%;
+   width: 350px;
+   height: 330px;
+   display: flex;
+    position: relative;
+    top: -110px;
+    
+}
+
+
+
+
+ #gif {
+   top: -40px;
+   position: relative;
+    left: 15px;
+
+}
+
+#seta-e {
+   position: relative;
+   top: 150px;
+   right: 25px;
+}
+
+#seta-d {
+    position: relative;
+   top: 150px;
+   left:65px;
+}
+
+.texto-1-gif {
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+.texto-2-gif {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+
+#btn-quero-agora {
+    padding: 10px 40px;
+    background-color: #FFD900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+#conteiner-btn-quero {
+    text-align: center;
+    
+
+}
+
+#conteiner-btn-quero img {
+    display: block;
+    margin: 0 auto 70px;
+}
+
+.conteiner-texto-2 {
+    margin-top: 100px;
+    
+}
+
+.conteiner-texto-2 h3 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.conteiner-texto-2 p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#banner-movimenta {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+.conteiner-bot {
+    background-color: #FFD900;
+    padding-bottom: 100px;
+}
+
+.conteiner-texto-bot {
+    padding-top: 70px;
+    text-align: left;
+}
+
+.conteiner-texto-bot h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.conteiner-texto-bot p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.conteiner-texto-bot h5 {
+    padding-bottom: 80px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#texto-bord {
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+
+}
+
+#texto-bord-2 {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.conteiner-texto-bot p {
+    padding-bottom: 20px;
+}
+
+.conteiner-texto-bot ul li {
+    list-style: none;
+    border-top: 1px solid #000;
+    padding: 10px;
+    margin: 0;
+}
+
+.conteiner-lista-p {
+    font-size: 20px;
+
+
+}
+
+.conteiner-lista-p p {
+    border-top: 1px solid #000;
+    padding: 20px 0 10px;
+    margin: 0;
+}
+
+.conteiner-footer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+
+#acerto-seta {
+    display: flex;
+    align-items: center;
+}
+
+#texto-icone {
+    margin-top: -5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+#texto-icone:hover {
+    color: blue;
+}
+
+#icone-seta {
+    width: 20px;
+    height: 30px;
+
+}
+
+.conteiner-lista {
+    display: flex;
+    font-size: 16px;
+    line-height: 30px;
+
+    margin: 0 80px;
+}
+
+
+.conteiner-ul {
+    list-style: none;
+    color: #000;
+}
+
+.lista2 {
+    color: #000;
+    font-size: 12px;
+}
+
+.h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.segunda-parte-footer {
+    display: flex;
+    position: relative;
+   margin-top: 50px;
+    
+}
+
+#btn-icon {
+    color: white;
+    background-color: #000;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bloco-1 {
+    position: relative;
+    left: 200px;
+}
+
+.segunda-parte-footer h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+.bloco-2 {
+    position: relative;
+    left: 470px;
+}
+
+.coteiner-icon {
+    position: relative;
+    left: 650px;
+    align-items: center;
+}
+
+
+.imagem-icon-link {
+    text-decoration: none;
+}
+
+.icon {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon-1 {
+    background: url(/img/icon\ face.png) 0 0 no-repeat;
+    text-decoration: none;
+}
+
+.icon-2 {
+    background: url(/img/icon\ insta.png) 0 0 no-repeat;
+    text-decoration: none;
+}
+
+.icon-3 {
+    background: url(/img/Slice\ 1.png) 0 0 no-repeat;
+    padding-top: 3px;
+}
+
+.icon-4 {
+    background: url(/img/Slice\ 2.png) 0 0 no-repeat;
+    padding-top: 3px;
+}
+
+.icon-5 {
+    background: url(/img/icon\ linkedin.png) 0 0 no-repeat;
+}
+
+.icon-6 {
+    background: url(/img/icon-youtube.png) 0 0 no-repeat;
+}
+
+#texto-icon {
+    font-size: 12px;
+}
+
+.texto-blog {
+    color: #000;
+    font-size: 12px;
+}
+
+#colocar-margin {
+    margin: 15px 20px 20px 0px;
+    font-size: 12px;
+
+}
+
+#borda {
+    border-top: 1px solid black;
+    margin-top: 40px;
+    width: 1000px;
+    margin-left: 300px;
+}
+
+
+#conteiner-btn-fala {
+    text-align: right;
+    padding: 50px 30px 50px 0;
+}
+
+.segunda-parte-footer ul li {
+    list-style: none;
+}

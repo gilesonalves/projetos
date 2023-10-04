@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+#conteiner {
+    display: flex;
+    margin-top: 30px;
+}
+
+#banner-conteiner,
+#form-conteiner {
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#banner-conteiner {
+    text-align: right;
+}
+
+#banner-conteiner img {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+#form-conteiner {
+    text-align: center;
+}
+
+#form-box {
+    background-attachment: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#form-conteiner img {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type="submit"] {
+    background-color: #82dffc;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#separator {
+    position: relative;
+}
+
+#line {
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+#separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #fff;
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+#Facebook-login {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#other-links {
+    padding-bottom: 20px;
+    
+}
+
+
+#Facebook-login a {
+    text-decoration: none;
+    color: #385185;
+    
+   position: relative;
+    padding-right: 10px;
+}
+
+#Facebook-login img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -10px;
+}
+
+#Facebook-login span {
+    font-weight: bold;
+    font: 13px;
+    
+    
+}
+
+.conteiner-cadastre {
+    display: block;
+    
+    margin-top: 30px;
+    
+}
+
+#register-conteiner {
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    
+}
+
+#get-app-container {
+    margin-top: 30px;
+    width: 350px;
+}
+
+#get-app-container a img {
+    width: 150px;
+    height: 40px;
+}
+
+#footer-links {
+   display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 12px;
+    padding: 10px 0;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#footer-links a{
+text-decoration: none;
+color: rgb(125, 120, 120);
+}
+
+#copyright {
+   text-align: right;
+   padding: 10px;
+}

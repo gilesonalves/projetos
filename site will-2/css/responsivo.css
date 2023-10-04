@@ -1,0 +1,100 @@
+@media only screen and (max-width: 980px) {
+    .navegacao ul {
+        display: block;
+        
+    }
+
+    .navegacao ul li {
+        padding-top: 20px;
+        padding-left: 20px;
+        
+    }
+
+    .center {
+        display: block;
+    }
+    
+    .conteiner-banner {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ #conteiner-amarelo {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 
+ }
+
+ .box-slid {
+   max-width: 100px;
+    
+ }
+
+
+
+ .btn-f4 {
+   padding-top: 50px;
+ }
+
+ .conteiner-table {
+   display: block;
+   line-height: 1.5;
+   padding-bottom: 10px;
+ }
+
+ .conteiner-circulo {
+   margin: 200px 60px 0;
+   
+   
+
+ }
+
+ .conteiner-texto-2 {
+   text-align: left;
+ }
+
+ #conteiner-seta {
+  padding-top: 30px;
+  
+ }
+
+ #acerto-seta {
+  
+  
+  position: relative;
+  right: -80px;
+ }
+
+ .segunda-parte-footer {
+  display: block;
+  position: relative;
+  
+
+ }
+
+ .bloco-1 {
+  position: relative;
+  left: 80px;
+ }
+
+ .bloco-2 {
+  position: relative;
+  left: 80px;
+  padding-top: 30px;
+ }
+
+ .coteiner-icon {
+  position: relative;
+  left: 80px;
+  padding-top: 30px;
+ }
+
+ #conteiner-btn-fala {
+  position: relative;
+  right: 200px;
+ }
+
+
+}
+    
